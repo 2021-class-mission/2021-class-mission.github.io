@@ -1,0 +1,39 @@
+encoding: utf-8
+
+title: 我的 Blog
+description: 我的个人博客
+keywords: Web,Jekyll,Javascript
+author: T
+footerText: 'Copyright © 2021 滴滴答答的时间'
+
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+
+# 域名配置
+domainUrl: 'http://2021-class-mission.github.io'
+baseurl: ''
+
+# 地址，会在页面中重定向到该地址
+tucaoUrl: https://xueshu.baidu.com
+
+# 菜单
+menu:
+  - title: 首页
+    url: /
+  - title: 归类
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+  - title: 使用介绍
+    url: /pages/links.html
+  - title: 寻找你的知识吧
+    url: /pages/know.html
+  - title: 关于我们
+    url: /pages/about.html
+
+# 点击页面文字冒出特效
+extClickEffect: flase
